@@ -1,0 +1,106 @@
+ /* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #598c4a;
+  color: #333;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  padding: 16px;
+  color: #eed63a;
+  background-color: #6c3b18;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+  color: #eed63a;
+  text-decoration: none;
+  }
+
+header {
+  background-color: #eed63a;
+  color: #613923;
+  padding: 1rem;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 0rem;
+  border-radius: 50%;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.post {
+  background-color: rgb(255, 247, 155);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(86, 41, 12, 0.696);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.post h2 {
+  color: #613923;
+  margin-bottom: 0.5rem;
+}
+
+.imagem-ajustada {
+  width: 720px;    
+  height: auto;    
+}
+
+
+.date {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: #613923;
+  color: #eed63a;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  position: relative;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Faixa decorativa no topo do footer */
+footer::before {
+  content: "";
+  display: block;
+  height: 6px; /* altura da faixa */
+  width: 100%;
+  background: #613923;
+  position: center;
+  top: 0;
+  left: 0;
+}
+footer p {
+  margin: 0px;
+  text-align: center;
+}
+footer img {
+  width: 75px;
+  height: 75px;
+  margin: 0px;
+}
